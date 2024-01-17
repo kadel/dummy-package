@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/kadel/dummy-package/compare/v1.0.0...v1.1.0) (2024-01-17)
+
+
+### Features
+
+* test ([f515b9e](https://github.com/kadel/dummy-package/commit/f515b9e08c686d7dd530ebceda40fda0ac856fb2))
+
 ## 1.0.0 (2024-01-17)
 
 

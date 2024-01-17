@@ -1,20 +1,29 @@
 {
   "name": "@tomaskral/dummy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Just a dummy package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "multi-semantic-release"
-
   },
   "author": "Tomas Kral <tomas.kral@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "18"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.2.1"
+    "@semantic-release/github": "9.2.1",
+    "@semrel-extra/npm": "1.2.2",
+    "conventional-changelog-conventionalcommits": "6.1.0",
+    "eslint-plugin-jest": "27.4.2",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.1",
+    "multi-semantic-release": "3.0.2",
+    "semantic-release": "^19.0.0"
   },
   "release": {
     "branches": "main",

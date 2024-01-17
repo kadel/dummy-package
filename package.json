@@ -98,6 +98,12 @@
           }
         }
       ],
+      [
+        "semantic-release-github-pullrequest", {
+          "assets": ["CHANGELOG.md"],
+          "baseRef": "main"
+        }
+      ],
       "@semantic-release/changelog",
       "@semrel-extra/npm",
       [

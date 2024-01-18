@@ -46,7 +46,6 @@ jobs:
 
       - name: Release via semantic-release
         run: |
-          gh api user
           npm config set workspaces-update false
           yarn release --ignore-private-packages
         env:

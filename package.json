@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "multi-semantic-release"
+    "release": "semantic-release"
   },
   "author": "Tomas Kral <tomas.kral@gmail.com>",
   "license": "MIT",

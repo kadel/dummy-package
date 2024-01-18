@@ -37,6 +37,10 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Install dependencies
+        run: |
+          yarn install
+
       - name: Release via semantic-release
         run: |
           npm config set workspaces-update false

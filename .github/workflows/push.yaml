@@ -43,9 +43,9 @@ jobs:
 
       - name: Release via semantic-release
         run: |
+          env
           npm config set workspaces-update false
           yarn release --ignore-private-packages
-          env
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
